@@ -22,7 +22,7 @@ app.use(errorMiddleware);
 async function inicializarBanco() {
   const client = new Client({
     connectionString:
-      "postgresql://admin:a9yE6b08x9W3kqPWvBybRfl2CMugLByk@dpg-d8ntou3bc2fs73fdcncg-a/db_products_dt17ssl=true",
+      "postgresql://admin:a9yE6b08x9W3kqPWvBybRfl2CMugLByk@dpg-d8ntou3bc2fs73fdcncg-a.ohio-postgres.render.com/db_products_dt17?ssl=true",
   });
 
   try {
